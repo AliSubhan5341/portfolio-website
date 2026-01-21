@@ -380,6 +380,62 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+/* PUBLICATIONS SECTION */
+
+#publications {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.publications-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+.publication-entry {
+  margin-bottom: 2.5rem;
+  text-align: left;
+}
+
+.publication-title-link {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.publication-link {
+  color: rgb(33, 150, 243);
+  text-decoration: none;
+  transition: color 300ms ease;
+}
+
+.publication-link:hover {
+  color: rgb(25, 118, 210);
+  text-decoration: none;
+}
+
+.publication-journal {
+  margin: 0.25rem 0 0.5rem 0;
+  color: rgb(85, 85, 85);
+  font-size: 0.95rem;
+  font-style: italic;
+}
+
+.publication-authors {
+  margin: 0.5rem 0 0 0;
+  color: rgb(85, 85, 85);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.publication-authors strong {
+  color: rgb(53, 53, 53);
+  font-weight: 600;
+}
+
 /* CONTACT */
 
 #contact {
